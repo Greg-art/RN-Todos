@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react';
 import { View } from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
+// import LinearGradient from 'react-native-linear-gradient';
+import {LinearGradient} from 'expo-linear-gradient';
 
 interface ItemWrapperProps {
   index: number;
